@@ -3,6 +3,7 @@
   --primary-font-color: #ffffff;
   --primary-text-color: #434455;
   --primary-brand-color: #404bbf;
+  --logo-color: #4d5ae5;
 }
 
 .body {
@@ -21,10 +22,17 @@ a {
 }
 
 /* headder */
+.navigation {
+}
+
 .first-logo-part {
-  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
 }
 
 .second-logo-part {
