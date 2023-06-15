@@ -18,10 +18,6 @@ body {
   line-height: 1.5;
 }
 
-a {
-  text-decoration: none;
-}
-
 /* headder */
 .navigation {
   font-family: 'Raleway', sans-serif;
@@ -39,9 +35,6 @@ a {
 
 .second-logo-part {
   color: var(--primary-link-color);
-  font-size: 18px;
-  line-height: 1.2;
-  text-decoration: none;
 }
 
 .list {
@@ -56,9 +49,25 @@ a {
   color: var(--primary-link-color);
 }
 
-.nav-contacts-links:hover,
-.nav-contacts-links:focus {
+.first-link-nav:hover,
+.first-link-nav:focus {
   color: var(--primary-brand-color);
+}
+
+.address-style {
+  font-style: normal;
+}
+
+.address-link-style {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.address-link-style:hover,
+.address-link-style:focus {
+  color: #404bbf;
 }
 
 /* main */
