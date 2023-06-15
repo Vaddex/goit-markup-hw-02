@@ -78,41 +78,5 @@ body {
   font-size: 16px;
   color: #4d5ae5;
   background: #f4f4fd;
-  align-items: center;
   letter-spacing: 0.04em;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.btn-blue-section {
-  font-size: 16px;
-  background-color: var(--primary-brand-color);
-  color: var(--primary-font-color);
-  width: 69px;
-  height: 48px;
-  align-items: center;
-  letter-spacing: 0.04em;
-}
-
-/* row-section */
-
-.h3-style h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.p-style p {
-  font-size: 16px;
-  letter-spacing: 0.02em;
-}
-
-.img-styles img {
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 0px;
-  top: 0px;
 }
