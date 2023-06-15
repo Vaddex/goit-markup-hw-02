@@ -4,6 +4,7 @@
   --primary-text-color: #434455;
   --primary-brand-color: #404bbf;
   --logo-color: #4d5ae5;
+  --primary-link-color: #2e2f42;
 }
 
 .body {
@@ -23,9 +24,6 @@ a {
 
 /* headder */
 .navigation {
-}
-
-.first-logo-part {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -35,15 +33,27 @@ a {
   color: var(--logo-color);
 }
 
+.link {
+  text-decoration: none;
+}
+
 .second-logo-part {
-  color: #2e2f42;
+  color: var(--primary-link-color);
   font-size: 18px;
   line-height: 1.2;
   text-decoration: none;
 }
 
-.nav-contacts-links {
-  color: var(--primary-text-color);
+.list {
+  list-style: none;
+}
+
+.first-link-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-link-color);
 }
 
 .nav-contacts-links:hover,
