@@ -5,6 +5,7 @@
   --primary-brand-color: #404bbf;
   --logo-color: #4d5ae5;
   --primary-link-color: #2e2f42;
+  --bg-btn-color: #f4f4fd;
 }
 
 body {
@@ -73,10 +74,21 @@ body {
 /* main */
 
 /* btn-section */
-.btn-sections {
-  cursor: pointer;
+.first-section-style {
+  background-color: var(--primary-link-color);
+}
+
+.btn-style {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--bg-btn-color);
+}
+
+.btn-style:hover,
+.btn-style:focus {
+  color: #ffffff;
 }
