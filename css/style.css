@@ -1,0 +1,82 @@
+/* common styles */
+:root {
+  --primary-font-color: #ffffff;
+  --primary-text-color: #434455;
+  --primary-brand-color: #404bbf;
+}
+
+.body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-font-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* headder */
+.first-logo-part {
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.second-logo-part {
+  color: #2e2f42;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.nav-contacts-links {
+  color: var(--primary-text-color);
+}
+
+.nav-contacts-links:hover,
+.nav-contacts-links:focus {
+  color: var(--primary-brand-color);
+}
+
+/* main */
+
+/* btn-section */
+.btn-sections {
+  cursor: pointer;
+  font-size: 16px;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn-blue-section {
+  font-size: 16px;
+  background-color: var(--primary-brand-color);
+  color: var(--primary-font-color);
+  width: 69px;
+  height: 48px;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+
+/* row-section */
+
+.h3-style h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.p-style p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
