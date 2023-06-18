@@ -72,8 +72,6 @@ body {
 }
 
 /* main */
-
-/* btn-section */
 .first-section-style {
   background-color: var(--primary-link-color);
 }
@@ -86,23 +84,7 @@ body {
   color: #ffffff;
 }
 
-.btn-style {
-  background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-}
-
-.btn-style:hover,
-.btn-style:focus {
-  background-color: #404bbf;
-  cursor: pointer;
-}
-
-.second-section-h2-style {
+.second-section-h3-style {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -122,6 +104,62 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-link-color);
+}
+
+.fourth-section-style {
+  background-color: #f4f4fd;
+}
+
+.fourth-section-li-style {
+  background-color: #ffffff;
+}
+
+.portfolio-rows-card-style {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-link-color);
+}
+.portfolio-rows-p-style {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* btn-section */
+.btn-style {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.btn-style:hover,
+.btn-style:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.btn-first-style {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--bg-btn-color);
+}
+
+.btn-first-style:hover,
+.btn-first-style:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* footer */
